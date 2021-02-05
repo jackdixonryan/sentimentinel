@@ -1,0 +1,27 @@
+{
+  "name": "sentimentinel",
+  "version": "1.0.0",
+  "description": "What the news says, or what the news _means_?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackdixonryan/sentimentinel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackdixonryan/sentimentinel/issues"
+  },
+  "homepage": "https://github.com/jackdixonryan/sentimentinel#readme",
+  "dependencies": {
+    "@google-cloud/language": "^4.2.1",
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-views": "^7.0.0"
+  }
+}
