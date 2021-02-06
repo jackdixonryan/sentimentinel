@@ -4,7 +4,9 @@
   "description": "What the news says, or what the news _means_?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +21,11 @@
   "dependencies": {
     "@google-cloud/language": "^4.2.1",
     "@koa/router": "^10.0.0",
+    "firebase": "^8.2.6",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0",
     "koa-logger": "^3.2.1",
-    "koa-views": "^7.0.0"
+    "koa-views": "^7.0.0",
+    "uuid": "^8.3.2"
   }
 }
